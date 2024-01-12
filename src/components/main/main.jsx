@@ -1,21 +1,21 @@
 import React from "react";
 import style from "./main.module.css";
-import background from "../../images/background.svg";
+import background from "../../images/background/background.svg";
 import photoMain from "../../images/photoMain.svg";
-import firstHolo from "../../images/firstHolo.svg";
-import secondHolo from "../../images/secondHolo.svg";
-import thirdHolo from "../../images/thirdHolo.svg";
-import fourthHolo from "../../images/fourthHolo.svg";
-import fifthhHolo from "../../images/fifthHolo.svg";
-import sixthHolo from "../../images/sixthHolo.svg";
-import seventhHolo from "../../images/seventhHolo.svg"
-import eighthHolo from "../../images/eighthHolo.svg"
-import sectionImage_1 from "../../images/sectionImage_1.svg"
-import sectionImage_2 from "../../images/sectionImage_2.svg"
-import sectionImage_3 from "../../images/sectionImage_3.svg"
-import sectionImage_4 from "../../images/sectionImage_4.svg"
-import sectionImage_5 from "../../images/sectionImage_5.svg"
-import sectionImage_6 from "../../images/sectionImage_6.svg"
+import firstHolo from "../../images/background/firstHolo.svg"
+import secondHolo from "../../images/background/secondHolo.svg";
+import thirdHolo from "../../images/background/thirdHolo.svg";
+import fourthHolo from "../../images/background/fourthHolo.svg";
+import fifthhHolo from "../../images/background/fifthHolo.svg"
+import sixthHolo from "../../images/background/sixthHolo.svg";
+import seventhHolo from "../../images/background/seventhHolo.svg"
+import eighthHolo from "../../images/background/eighthHolo.svg"
+import sectionImage_1 from "../../images/sectionImage/sectionImage_1.svg"
+import sectionImage_2 from "../../images/sectionImage/sectionImage_2.svg"
+import sectionImage_3 from "../../images/sectionImage/sectionImage_3.svg"
+import sectionImage_4 from "../../images/sectionImage/sectionImage_4.svg"
+import sectionImage_5 from "../../images/sectionImage/sectionImage_5.svg"
+import sectionImage_6 from "../../images/sectionImage/sectionImage_6.svg"
 
 const Main = () => {
   return (

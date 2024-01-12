@@ -1,12 +1,12 @@
 import React from "react";
 import style from "./header.module.css";
-import Logo from "../../images/logo.svg";
-import searchIcon from "../../images/searchIcon.svg";
-import explore from "../../images/explore.svg";
-import overview from "../../images/overview.svg";
-import profile from "../../images/profile.svg";
-import signout from "../../images/signout.svg";
-import downIcon from "../../images/downIcon.svg";
+import Logo from "../../images/header/logo.svg";
+import searchIcon from "../../images/header/searchIcon.svg";
+import explore from "../../images/header/explore.svg";
+import overview from "../../images/header/overview.svg";
+import profile from "../../images/header/profile.svg";
+import signout from "../../images/header/signout.svg";
+import downIcon from "../../images/header/downIcon.svg";
 const Header = () => {
   return (
     <header className={style.header}>
