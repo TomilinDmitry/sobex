@@ -1,0 +1,215 @@
+.main {
+  padding: 60px 150px 30px 150px;
+  position: relative;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  height: 770px;
+}
+
+.containerBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.titleBlock {
+  position: relative;
+  z-index: 2;
+  width: 757px;
+  height: 116px;
+  top: 256px;
+  left: 49px;
+  right: 120px;
+  bottom: 381.5px;
+  font-size: 48px;
+  text-align: right;
+  font-weight: 600;
+  color: rgba(37, 37, 37, 1);
+  background: rgba(0, 0, 0, 0);
+  margin-bottom: 30px;
+}
+.title {
+  background: 0;
+  margin-bottom: 30px;
+}
+
+.gradient {
+  background: linear-gradient(
+    93.2deg,
+    #6dcfff 86.21%,
+    #737ff5 97.65%,
+    #2e41ff 97.65%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.textUnderTitle {
+  position: relative;
+  left: 180px;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(128, 128, 128, 1);
+  width: 607px;
+  height: 44px;
+  background: 0;
+}
+.button {
+  position: absolute;
+  top: 504px;
+  left: 636px;
+  width: 178px;
+  height: 59px;
+  z-index: 2;
+  border-radius: 6px;
+  border: none;
+  background: rgba(254, 254, 254, 1);
+  color: rgba(131, 100, 226, 1);
+}
+.photoBlock {
+  width: 1000px;
+  height: 720px;
+  position: relative;
+  z-index: 2;
+  left: 750px;
+  bottom: 95px;
+  background: 0;
+  border-radius: 20px;
+}
+.photoBlock img {
+  border-radius: 20px;
+}
+.holoBlockfirst {
+  position: absolute;
+  background: 0;
+  z-index: 2;
+  width: 290px;
+  height: 163px;
+  top: 50px;
+  left: 20px;
+  transform: rotate(-120deg);
+}
+.firstHolo {
+  background: 0;
+}
+
+.holoBlockSecond {
+  position: absolute;
+  background: 0;
+  z-index: 2;
+  width: 450.97px;
+  top: 20px;
+  left: -135px;
+  transform: rotate(0deg);
+}
+.secondHolo {
+  background: 0;
+}
+.holoBlockThird {
+  position: absolute;
+  background: 0;
+  z-index: 3;
+  width: 116px;
+  height: 66px;
+  top: 210px;
+  left: 750px;
+  transform: rotate(0deg);
+}
+.thirdHolo {
+  background: 0;
+}
+.holoBlockFourth {
+  position: absolute;
+  background: 0;
+  z-index: 3;
+  width: 356px;
+  height: 200px;
+  top: 330px;
+  left: 240px;
+  transform: rotate(-7deg);
+}
+.fourthHolo {
+  background: 0;
+}
+.holoBlockFifth {
+  position: absolute;
+  background: 0;
+  z-index: 3;
+  width: 189.7px;
+  height: 172.58px;
+  bottom: 175px;
+  left: -30px;
+  transform: rotate(0deg);
+}
+.fifthHolo {
+  background: 0;
+}
+.holoBlockSixth {
+  position: absolute;
+  background: 0;
+  z-index: 3;
+  width: 724px;
+  height: 208px;
+  bottom: 74px;
+  left: -125px;
+  transform: rotate(0deg);
+}
+.sixthHolo {
+  background: 0;
+}
+.holoBlockSeventh {
+  position: absolute;
+  background: 0;
+  z-index: 3;
+  width: 440px;
+  height: 179px;
+  bottom: 42px;
+  left: 545px;
+  transform: rotate(0deg);
+}
+.seventhHolo {
+  background: 0;
+}
+.holoBlockEighth {
+  position: absolute;
+  background: 0;
+  z-index: 2;
+  width: 440px;
+  height: 125px;
+  bottom: 67px;
+  right: 285px;
+  transform: rotate(0deg);
+}
+.eighthHolo {
+  background: 0;
+}
+
+.sectionBlock {
+  margin: 30px 250px 108px 100px;
+  display: flex;
+  gap: 24px;
+  width: 1420px;
+  flex-direction: row;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 215px;
+    height: 160px;
+    background: linear-gradient(53.56deg, rgba(26, 167, 236, 0.2) 0%, rgba(121, 126, 246, 0.2) 50%);
+    gap: 20px;
+    border-radius:20px;
+}
+.section img{
+    background:0;
+}
+.section span {
+    line-height: 20px;
+    font-weight: 700;
+    background:0
+}
