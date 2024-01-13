@@ -1,0 +1,27 @@
+.sectionBlock {
+    margin: 30px 250px 108px 100px;
+    display: flex;
+    gap: 24px;
+    width: 1420px;
+    flex-direction: row;
+  }
+  .section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 215px;
+      height: 160px;
+      background: linear-gradient(53.56deg, rgba(26, 167, 236, 0.2) 0%, rgba(121, 126, 246, 0.2) 50%);
+      gap: 20px;
+      border-radius:20px;
+  }
+  .section img{
+      background:0;
+  }
+  .section span {
+      line-height: 20px;
+      font-weight: 700;
+      background:0;
+  }
+  

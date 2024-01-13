@@ -1,0 +1,70 @@
+.card{
+    position: relative;
+    width: 340px;
+    height: 420px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.137);
+    }
+    .profilePhoto{
+        position: absolute;
+        top:240px;
+        left: 150px;
+    background:0;
+    display: flex;
+    }
+    .profilePhoto img{
+        z-index: 2;
+        background:0;
+    }
+.icon{
+    position: absolute;
+    top:34px;
+    left: 35px;
+    background:0px;
+    z-index: 3;
+}
+.mainImage{
+    position: absolute;
+    top:0px;
+    z-index: 1;
+    left: 0px;
+    background:0;
+    width: 340px;
+}
+.title{
+    position: relative;
+    top: 15px;
+    left: 5px;
+    margin-bottom: 18px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color:rgba(4, 8, 54, 1);
+background:0;
+}
+.footerCard {
+    background: 0;
+    flex-wrap: wrap;
+    margin: 0px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footerCard p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    width: 290px;
+    max-width: 100%; /* Чтобы текст не выходил за пределы блока */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    background: 0;
+    color: rgba(114, 114, 114, 1);
+  }

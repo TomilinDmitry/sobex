@@ -1,0 +1,64 @@
+.card{
+    position: relative;
+    width: 340px;
+    height: 420px;
+    border-radius: 15px;
+    background: linear-gradient(37.07deg, rgba(26, 167, 236, 0.1) 0%, rgba(121, 126, 246, 0.1) 50%);
+    }
+    .profilePhoto{
+    background:0;
+    display: flex;
+    padding: 15px 0px 0px 20px;
+    }
+    .profilePhoto img{
+        z-index: 2;
+        background:0;
+    }
+.icon{
+    position: absolute;
+    top:45px;
+    left: 55px;
+    background:0px;
+    z-index: 3;
+}
+.mainImage{
+    position: absolute;
+    top:50px;
+    z-index: 1;
+    left: 20px;
+    background:0;
+}
+.footerCard{
+    background:0;
+    width: 269px;
+height: 26px;
+margin: 20px 0px 10px 0px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.footerCard p {
+    display: flex;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    background:0;
+}
+.price{
+    font-family: Inter;
+font-size: 12px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(128, 128, 128, 1);
+background:0;
+}
+.price span{
+    font-weight: 700;
+    color:rgba(37, 37, 37, 1);
+    margin-left: 6px;
+}
