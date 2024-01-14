@@ -1,0 +1,15 @@
+.secondCard{
+    position: absolute;
+    right:115px;
+    top:0;
+}
+.thirdCard{
+    position: absolute;
+    right:-215px;
+    top:-130px;
+}
+.fourthCard{
+    position: absolute;
+    left:-330px;
+    top:-130px;
+}

@@ -6,6 +6,7 @@ import MainSectionBlock from "./mainSectionBlock/mainSectionBlock";
 import MainSecondBlock from "./mainSecondBlock/mainSecondBlock";
 import MainThirdBlock from "./mainThirdBlock/mainThirdBlock";
 import MainFourthBlock from "./mainFourthBlock/mainFourthBlock";
+import NewsBlock from "./mainNewsBlock/newsBlock";
 
 const Main = () => {
   return (
@@ -31,6 +32,7 @@ const Main = () => {
       <MainSecondBlock/>
       <MainThirdBlock/>
       <MainFourthBlock/>
+      <NewsBlock/>
     </main>
   );
 };

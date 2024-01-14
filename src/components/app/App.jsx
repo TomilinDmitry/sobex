@@ -1,3 +1,5 @@
+import { Route } from 'react-router-dom';
+import Footer from '../footer/footer';
 import Header from '../header/header';
 import Main from '../main/main';
 import './App.css';
@@ -7,6 +9,7 @@ function App() {
     <div className="App">
     <Header/>
     <Main/>
+    <Footer/>
     </div>
   );
 }

@@ -32,6 +32,8 @@
     position: relative;
     width: 775px;
     height: 150px;
+    margin-bottom: 620px;
+   
 }
 .textDescription h5 {
 font-family: Inter;
@@ -40,13 +42,36 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: -0.5px;
 text-align: center;
+margin-bottom: 80.5px;
 }
 .holo{
-    position: absolute;
-    bottom: -840px;
-    left: -530px;
     background:0;
+    
 }
 .holo img {
+    right:-370px;
+    top: -100px;
     background:0;
+    position: absolute;
+    width: 1500px;
+}
+.cardBlockContainer{
+    display: flex;
+    justify-content: center;
+  
+}
+.centralCardBlock{
+    position: relative;
+    width: 305px;
+height: 418px;
+border: 2px solid #8364E2;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+}
+.centralCardBlock img{
+    width: 265px;
+height: 179px;
+border-radius: 9px;
+margin: 20px 20px 0px 20px;
 }

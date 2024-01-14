@@ -1,0 +1,101 @@
+.container{
+height: 314px;
+width: 1920px;
+background: rgba(4, 8, 54, 1);
+padding:60px 250px 0px 250px;
+display: flex;
+}
+.logoColumn{
+    background: 0;
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 114px;
+    margin-right: 130px;
+}
+.logoColumn img{
+    background: 0;
+    margin-bottom: 20px;
+    width: 80px;
+height: 60px;
+
+}
+.logoColumn p{
+    width: 120px;
+height: 34px;
+text-align: left;
+background: 0;
+color: rgba(255, 255, 255, 0.5);
+
+}
+.category{
+    background: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 120px;
+}
+.category p{
+    background: 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    margin-bottom: 20px;
+    size: 18px;
+}
+.list{
+    background: 0;
+}
+.category li{
+    background: 0;
+    list-style: none;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+    size: 14px;
+}
+.profile{
+    background: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 360px;
+}
+.profile p{
+    background: 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    margin-bottom: 20px;
+    size: 18px;
+}
+.list{
+    background: 0;
+}
+.profile li{
+    background: 0;
+    list-style: none;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+    size: 14px;
+}
+.social{
+    background: 0;
+}
+.social p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: 0;
+    margin-bottom: 10px;
+}
+.socialImage{
+    display: flex;
+    background:0
+}
+.socialImage img{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
