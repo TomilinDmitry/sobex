@@ -7,11 +7,13 @@ import overview from "../../images/header/overview.svg";
 import profile from "../../images/header/profile.svg";
 import signout from "../../images/header/signout.svg";
 import downIcon from "../../images/header/downIcon.svg";
+import { BrowserRouter, Link } from "react-router-dom";
 const Header = () => {
   return (
+    <BrowserRouter>
     <header className={style.header}>
       <div className={style.container}>
-        <img className={style.logo} src={Logo} alt='Logo' />
+       <Link to='/'> <img className={style.logo} src={Logo} alt='Logo' /></Link>
         <div className={style.searchInput}>
           <img
             className={style.searchIcon}
@@ -29,18 +31,16 @@ const Header = () => {
       <nav className={style.navBar}>
         <ul className={style.navBarList}>
         <li>
-            <a href='/explore'>
               <span>
                 <img className={style.navBarIcon} src={explore} alt='explore' />
               </span>
-              Explore
+             <Link to="/explore"> Explore </Link>
               <span>
                 <img className={style.downIcon}  src={downIcon} alt='explore' />
               </span>
-            </a>
           </li>
           <li>
-            <a href='/overview'>
+            
               <span>
                 <img className={style.navBarIcon} src={overview} alt='explore' />
               </span>
@@ -48,10 +48,10 @@ const Header = () => {
               <span>
                 <img className={style.downIcon}  src={downIcon} alt='explore' />
               </span>
-            </a>
+            
           </li>
           <li>
-            <a href='/profile'>
+            
               <span>
                 <img  className={style.navBarIcon} src={profile} alt='explore' />
               </span>
@@ -59,10 +59,9 @@ const Header = () => {
               <span>
                 <img className={style.downIcon} src={downIcon} alt='explore' />
               </span>
-            </a>
+            
           </li>
           <li>
-            <a href='/signout'>
               <span>
                 <img className={style.navBarIcon} src={signout} alt='explore' />
               </span>
@@ -70,11 +69,12 @@ const Header = () => {
               <span>
                 <img className={style.downIcon} src={downIcon} alt='explore' />
               </span>
-            </a>
+           
           </li>
         </ul>
       </nav>
     </header>
+    </BrowserRouter>
   );
 };
 

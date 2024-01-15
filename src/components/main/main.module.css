@@ -36,7 +36,7 @@
     #737ff5 97.65%,
     #2e41ff 97.65%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 .textUnderTitle {
@@ -60,4 +60,8 @@
   border: none;
   background: rgba(254, 254, 254, 1);
   color: rgba(131, 100, 226, 1);
+}
+.footer{
+  position: relative;
+  right: 210px;
 }

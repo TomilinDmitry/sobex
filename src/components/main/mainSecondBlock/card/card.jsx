@@ -4,6 +4,7 @@ import profilePhoto from "../../../../images/secondBlock/profilePhoto.svg";
 import icon from "../../../../images/secondBlock/icon.svg";
 import mainImage from '../../../../images/secondBlock/mainImage.svg'
 import threeDots from '../../../../images/secondBlock/threeDots.svg'
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (

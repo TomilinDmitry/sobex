@@ -7,6 +7,7 @@ import MainSecondBlock from "./mainSecondBlock/mainSecondBlock";
 import MainThirdBlock from "./mainThirdBlock/mainThirdBlock";
 import MainFourthBlock from "./mainFourthBlock/mainFourthBlock";
 import NewsBlock from "./mainNewsBlock/newsBlock";
+import Footer from "../footer/footer";
 
 const Main = () => {
   return (
@@ -33,6 +34,9 @@ const Main = () => {
       <MainThirdBlock/>
       <MainFourthBlock/>
       <NewsBlock/>
+      <div className={style.footer}>
+      <Footer />
+      </div>
     </main>
   );
 };

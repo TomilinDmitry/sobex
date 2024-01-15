@@ -1,0 +1,122 @@
+.container{
+    margin: 60px 0px 0px 250px;
+    display: flex;
+}
+.mainImage{
+    width: 600px;
+    height: 600px;
+    border:1px solid black;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+.informationBlock{
+    display: flex;
+    flex-direction: column;
+}
+.countdown{
+    margin-bottom: 15px;
+}
+.countdown p{
+    color:rgba(110, 110, 115, 1);
+    font-weight: 500;
+    text-align: left;
+}
+.countdown span{
+    background: linear-gradient(95.17deg, #3d74cc 0.18%, #5F8DC2 89.2%);;
+    font-size: 18px;
+    font-weight: 700;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
+}
+.companyName{
+    display: flex;
+    margin-bottom: 5px;
+}
+.circle{
+    width: 20px;
+    margin-right: 5px;
+    border-radius:  50%;
+    background: linear-gradient(95.17deg, #b7d2ff 0.18%, #d467f9 89.2%);
+}
+.companyName p{
+    font-weight: 500;
+}
+.companyName img{
+    margin-left: 5px;
+}
+.rent{
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.typeBlock{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.type{
+    text-align: left;
+}
+.titleType{
+    color:rgb(73, 73, 74);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.typeClass{
+    padding: 4px 8px 4px 8px;
+    border-radius:5px;
+    background: rgba(214, 245, 255, 1);
+    color:rgb(107, 107, 109);
+}
+.button button{
+   padding: 15px 25px 15px 25px;
+   border-radius:5px;
+   border: 0;
+   color:white;
+   background:#a658ff
+}
+.description{
+    flex-wrap: wrap;
+    width: 407px;
+    color:rgb(107, 107, 109);
+    margin-bottom: 10px;
+}
+.creatorsAndOwner{
+    display: flex;
+    margin-bottom: 20px;
+}
+.circleAvatar{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius:  50%;
+    background: linear-gradient(95.17deg, #b7d2ff 0.18%, #67f2f9 89.2%);
+}
+.circleAvatar img {
+    position: absolute;
+    background: 0;
+    width: 10px;
+    left: 25px;
+    top: 25px;
+}
+.postAndNameBlock{
+    text-align: left;
+    margin-right: 25px;
+}
+.post{
+    color:rgb(107, 107, 109);
+    font-size: 14px;
+}
+.name{
+    font-weight: 600;
+}
+.nftInfo p{
+    text-align: left;
+    font-weight: 600;
+}

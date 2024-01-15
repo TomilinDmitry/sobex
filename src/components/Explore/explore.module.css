@@ -1,0 +1,174 @@
+.banner {
+  margin-bottom: 60px;
+}
+.banner img {
+  position: relative;
+}
+.bannerText {
+  position: absolute;
+
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  z-index: 1;
+  color: rgba(255, 255, 255, 1);
+  top: 210px;
+  left: 860px;
+  background: 0;
+}
+.buttonCollection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 130px;
+  right: 270px;
+  width: 250px;
+  height: 35px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+  background: rgba(255, 255, 255, 1);
+  color: rgba(87, 70, 175, 1);
+  border: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+.buttonCollection span {
+  text-decoration: underline;
+}
+
+.inputAndSelectBlock {
+  padding: 0px 250px 36px 250px;
+  display: flex;
+}
+.searchInput {
+  display: flex;
+  margin-right: 73px;
+}
+.searchInput input {
+  width: 183px;
+  height: 59px;
+  padding: 20px;
+  border-radius: 5px 0px 0px 5px;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  border: 1px solid rgba(221, 221, 221, 1);
+  box-shadow: 2px 2px 20px 0px rgba(20, 20, 20, 0.05);
+}
+.purpleBlockforIcon {
+  width: 54px;
+  height: 59px;
+  padding: 20px;
+  border-radius: 0px 5px 5px 0px;
+  background: rgba(121, 126, 246, 1);
+}
+.purpleBlockforIcon img {
+  background: 0;
+}
+.typesAndCollection {
+  display: flex;
+  width: 298.3px;
+  height: 57px;
+  gap: 20px;
+}
+.types {
+  width: 123.22px;
+  height: 57px;
+  gap: 5px;
+}
+.title {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.select {
+  width: 123.22px;
+  height: 35px;
+  padding: 9px 15px 11px 15px;
+  border-radius: 4px;
+  gap: 4.22px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+}
+.select p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(110, 86, 207, 1);
+  margin-right: 4px;
+}
+.selectCollection {
+  width: 155.08px;
+  height: 35px;
+  padding: 9px 15px 11px 15px;
+  border-radius: 4px;
+  gap: 4.08px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.14);
+  display: flex;
+  align-items: center;
+}
+.selectCollection p {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(110, 86, 207, 1);
+  margin-right: 4px;
+}
+.page {
+  display: flex;
+  padding: 0px 250px 30px 250px;
+}
+.page img {
+  opacity: 38%;
+}
+.pageNumber {
+  margin: 0px 12px 0px 12px;
+  width: 32px;
+  height: 32px;
+  padding: 5px 12px 6px 12px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+}
+.cardBlock {
+    position: relative;
+    margin: 0px 250px 140px 250px;
+    display: flex;
+    flex-wrap: wrap;
+  width: 1420px;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+.arrowForCard{
+    position:absolute;
+}
+.arrowLeftTop{
+position: absolute;
+top: 180px;
+left: -710px;
+z-index: 2;
+background: 0;
+}
+.arrowLeftBottom{
+position: absolute;
+top: 620px;
+left: -710px;
+z-index: 2;
+background: 0;
+}

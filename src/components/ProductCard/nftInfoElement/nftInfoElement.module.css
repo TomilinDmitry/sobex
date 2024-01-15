@@ -1,0 +1,55 @@
+.element{
+    width: 430px;
+height: 57px;
+border-radius: 5px;
+border: 1px solid rgba(227, 227, 227, 1);
+display: flex;
+justify-content: space-between;
+padding: 0px 10px 0px 10px;
+align-items:center;
+margin-top: 10px;
+}
+.gradient{
+    background: linear-gradient(90deg, #1EA6E9 34.35%, #737FF5 65.35%);
+    background-clip: text;
+    color: transparent;
+border-bottom: 1px solid rgba(115, 127, 245, 1);
+text-align: right;
+}
+.grayText{
+    color:rgba(110, 110, 115, 1);
+    background: 0;
+    margin-left: 5px;
+}
+
+.marketing{
+    margin: 30px 0px 60px;
+}
+.marketingElement{
+    width: 430px;
+    height: 57px;
+    border-radius: 5px;
+    border: 1px solid rgba(227, 227, 227, 1);
+    background: linear-gradient(90deg, #B6DAF9 0%, #F8F2FF 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    align-items:center;
+    margin-top: 10px;
+}
+.elementText{
+    background: 0;
+   
+}
+.rightText{
+    background: 0;
+    position:relative;
+    
+}
+
+.lvl{
+    position: absolute;
+    background: 0;
+    font-size: 8px;
+    left: 8px;
+}
